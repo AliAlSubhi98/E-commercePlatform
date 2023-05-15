@@ -13,7 +13,7 @@ public class ReviewService {
     @Autowired
     ReviewRepository reviewRepository;
 
-    List<Review> getAllReviews(){
+    public List<Review> getAllReviews(){
         return reviewRepository.findAll();
     }
 
