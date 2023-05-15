@@ -13,7 +13,7 @@ public class ShoppingCartService {
     @Autowired
     ShoppingCartRepository shoppingCartRepository;
 
-    List<ShoppingCart> getAllShoppingCarts(){
+    public List<ShoppingCart> getAllShoppingCarts(){
 
         return shoppingCartRepository.findAll();
     }

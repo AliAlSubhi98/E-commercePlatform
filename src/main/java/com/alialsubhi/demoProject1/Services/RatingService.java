@@ -13,7 +13,7 @@ public class RatingService {
     @Autowired
     RatingRepository ratingRepository;
 
-    List<Rating> getAllRatings(){
+    public List<Rating> getAllRatings(){
         return ratingRepository.findAll();
     }
 }

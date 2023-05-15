@@ -13,7 +13,7 @@ public class ShippingAddressService {
     @Autowired
     ShippingAddressRepository shippingAddressRepository;
 
-    List<ShippingAddress> getAllShippingAddresses(){
+    public List<ShippingAddress> getAllShippingAddresses(){
         return shippingAddressRepository.findAll();
     }
 }
