@@ -1,10 +1,16 @@
 package com.alialsubhi.demoProject1.Models;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
+import javax.persistence.*;
+
+@Data
+@Setter
+@Getter
+@Entity
+@Table(name = "shopping_carts")
 public class ShoppingCart {
 
     @Id
