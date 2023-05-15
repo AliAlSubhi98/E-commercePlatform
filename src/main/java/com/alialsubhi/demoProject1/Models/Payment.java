@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 public class Payment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    Long id;
 
 
     // Order order How to create the link @OneToOne ?
