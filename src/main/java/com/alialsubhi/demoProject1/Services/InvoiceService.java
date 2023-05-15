@@ -13,7 +13,7 @@ public class InvoiceService {
     @Autowired
     InvoiceRepository invoiceRepository;
 
-    List<Invoice> getAllInvoices(){
+    public List<Invoice> getAllInvoices(){
         return invoiceRepository.findAll();
     }
 }
